@@ -91,7 +91,7 @@ export default function Footer() {
             </ul>
 
             {/* Social Links */}
-            <div className="flex space-x-3 mt-6">
+            {/* <div className="flex space-x-3 mt-6">
               <a
                 href={COMPANY_INFO.social.linkedin}
                 target="_blank"
@@ -110,7 +110,7 @@ export default function Footer() {
               >
                 f
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 

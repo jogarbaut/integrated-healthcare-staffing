@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-20 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-30 overflow-hidden"
     >
       {/* Background with gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/10 to-primary/5"></div>
@@ -38,7 +38,7 @@ export default function Hero() {
               </a>
               <a
                 href="#contact"
-                className="bg-white hover:bg-gray-50 text-primary border-2 border-primary font-semibold py-3 px-8 rounded-lg transition-all duration-300"
+                className="bg-white hover:bg-gray-50 text-primary border-2 border-primary font-semibold py-3 px-8 rounded-lg transition-all duration-300 text-center"
               >
                 Contact Us
               </a>
