@@ -82,12 +82,12 @@ export default function Footer() {
                   {COMPANY_INFO.email}
                 </a>
               </li>
-              <li className="pt-2">
+              {/* <li className="pt-2">
                 {COMPANY_INFO.address.street}
                 <br />
                 {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state}{" "}
                 {COMPANY_INFO.address.zip}
-              </li>
+              </li> */}
             </ul>
 
             {/* Social Links */}
@@ -118,7 +118,7 @@ export default function Footer() {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-200">
-              © {currentYear} {COMPANY_INFO.name}. All rights reserved.
+              © {currentYear} {COMPANY_INFO.name} All rights reserved.
             </p>
             {/* <div className="flex space-x-6 text-sm text-gray-200">
               <a href="#" className="hover:text-sky-200 transition-colors">

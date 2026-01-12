@@ -94,11 +94,11 @@ export default function Contact() {
                   </div>
 
                   {/* Address */}
-                  <div className="flex items-start space-x-4">
+                  {/* <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center flex-shrink-0">
                       <span className="text-2xl">📍</span>
-                    </div>
-                    <div>
+                    </div> */}
+                  {/* <div>
                       <div className="font-semibold text-gray-800">Address</div>
                       <div className="text-gray-600">
                         {COMPANY_INFO.address.street}
@@ -106,8 +106,8 @@ export default function Contact() {
                         {COMPANY_INFO.address.city},{" "}
                         {COMPANY_INFO.address.state} {COMPANY_INFO.address.zip}
                       </div>
-                    </div>
-                  </div>
+                    </div> */}
+                  {/* </div> */}
                 </div>
               </div>
 
